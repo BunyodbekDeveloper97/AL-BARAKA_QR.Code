@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-BARAKA Account Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="imageLogo.png" alt="Restaurant Logo">
+        </div>
+        <h4>Restaurant Account Number</h4>
+        <div class="card">
+            <div class="bank-name">NH 농협은행</div>
+            <div class="card-number" id="card-number">302 1827 3339 01</div>
+            <div class="card-holder">BALTABAEVA N</div>
+        </div>
+        <div class="copy-container">
+            <input type="text" id="copy-text" value="302 1827 3339 01" readonly>
+            <br>
+            <button class="copy-button" onclick="copyNumber()">
+                <span class="copied" id="copied-text">Copied!</span>
+                Copy
+            </button>
+        </div>
+        <div class="restaurant-info">
+            <p>
+                <strong>Restaurant Address:</strong> 
+                <a href="#" onclick="openMap()">경기 수원시 영통구 매탄동 153-79</a>
+            </p>
+            <p>
+                <strong>Delivery Phone:</strong> 
+                <a href="tel:+821023078322">01023078322</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
