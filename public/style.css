@@ -22,7 +22,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(135deg, #070c16, #2a5298);
+    background: linear-gradient(135deg, #013c73, #ab4801);
     color: white;
     margin: 0;
     display: flex;
@@ -32,10 +32,10 @@ body {
     flex-direction: column;
 }
 .container {
-    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(135deg, #013c73, #ab4801);
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px #0000004d;
     animation: fadeInUp 1s ease-in-out;
 }
 .logo {
@@ -47,14 +47,15 @@ body {
     width: 350px;
     height: 120px;
     margin-right: 10px;
-    background-color: #b6c9dd;
+    background-color: #a1bbf8;
     border-radius: 50%;
 
 }
+
 .card {
     width: 380px;
     height: 220px;
-    background: linear-gradient(135deg, #004d99, #3399ff);
+    background: linear-gradient(135deg, #c24705, #19028a);
     color: white;
     border-radius: 15px;
     display: flex;
@@ -62,7 +63,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     margin: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px #00000033;
     position: relative;
     animation: cardPulse 2s infinite ease-in-out;
 }
@@ -75,7 +76,6 @@ body {
     font-size: 28px;
     letter-spacing: 3px;
     text-align: center;
-    margin-top: 30px;
 }
 .card-holder {
     font-size: 16px;
@@ -100,7 +100,7 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #0561c3;
     color: white;
     transition: background 0.3s;
     position: relative;
@@ -123,18 +123,27 @@ body {
 .restaurant-info {
     margin-top: 20px;
     font-size: 16px;
-    background: rgba(28, 39, 7, 0.647);
+    background:#774602;
     padding: 10px;
     border-radius: 5px;
 }
+strong{
+    color: #ffff00;
+}
 
 a {
-    color: white; 
+    color: #f5f5f5; 
     text-decoration: none; 
 }
 
 a:hover {
-    color: yellow; 
+    color: #757ef3; 
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #e6eecc;
 }
 
 
